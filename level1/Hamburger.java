@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class Solution {
+public class Hamburger {
     public int solution(int[] ingredient) {
         int answer = 0;
         Stack<Integer> stack = new Stack<>();
