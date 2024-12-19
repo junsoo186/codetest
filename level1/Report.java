@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.HashSet;
 
-class Solution {
+class Report {
     public int[] solution(String[] id_list, String[] report, int k) {
         int[] answer = new int[id_list.length];
         
