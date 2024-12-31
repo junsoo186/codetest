@@ -1,4 +1,4 @@
-class Solution {
+class Dice3 {
     public int solution(int a, int b, int c, int d) {
         int[] dice = {a, b, c, d};
         int[] numburBox = new int[7];
