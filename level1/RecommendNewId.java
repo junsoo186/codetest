@@ -1,4 +1,4 @@
-class Solution {
+class RecommendNewId {
     public String solution(String new_id) {
         String box = new_id.toLowerCase();
 
