@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class MostReceivedGifts {
     
 
     public int solution(String[] friends, String[] gifts) {
