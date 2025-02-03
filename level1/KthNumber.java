@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class Solution {
+class KthNumber {
     public int[] solution(int[] array, int[][] commands) {
         ArrayList<Integer> answer = new ArrayList<>();
         for (int a = 0; a < commands.length; a++) {
