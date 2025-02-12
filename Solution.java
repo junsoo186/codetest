@@ -1,19 +1,27 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashMap;
 
 class Solution {
-    public int[] solution(int[] array, int[][] commands) {
-        ArrayList<Integer> answer = new ArrayList<>();
-        for (int a = 0; a < commands.length; a++) {
-            int i = commands[a][0];
-            int j = commands[a][1];
-            int k = commands[a][2];
-            
-            int[] box = Arrays.copyOfRange(array, i - 1, j);  
-            Arrays.sort(box);
-            answer.add(box[k - 1]);
+    public int solution(String[] word) {
+        int answer = 0;
+        int sizes = word[1].length();
+        String target = word[1];
+        HashMap<Character,Integer> targetBox = new HashMap<>();
+
+        for (Character ch : target.toCharArray()) {
+            targetBox.put(ch , targetBox.get(ch)+1);
         }
-        
-        return answer.stream().mapToInt(Integer::intValue).toArray();
+
+        for (String p : word) {
+            if (p.length() == sizes) {
+                for (Character ch : p.toCharArray()) {
+                    if (targetBox.get(ch) >= 1) {
+                        
+                        
+                    }
+                }
+                
+            }
+        }
+        return answer;
     }
 }
