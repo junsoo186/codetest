@@ -1,4 +1,3 @@
-package level0;
 
 class Babbling1 {
     public int solution(String[] babbling) {

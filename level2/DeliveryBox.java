@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-class Solution {
+class DeliveryBox {
 
     public int solution(int[] order) {
         int answer = 0;
