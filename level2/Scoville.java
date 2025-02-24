@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class Scoville {
     public int solution(int[] scoville, int K) {
         int answer = 0;
         int result = 0;
