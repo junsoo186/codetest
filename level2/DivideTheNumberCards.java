@@ -1,4 +1,4 @@
-class Solution {
+class DivideTheNumberCards {
     public int solution(int[] arrayA, int[] arrayB) {
         int gcdA = arrayA[0];
         for (int i = 1; i < arrayA.length; i++) {

@@ -5,10 +5,10 @@ class DeliveryBox {
     public int solution(int[] order) {
         int answer = 0;
         int count = 1; // 현재 택배 번호
-        Stack<Integer> sub = new Stack<>(); // 보조 스택
+        Stack<Integer> sub = new Stack<>(); 
 
         for (int box : order) {
-            while (count <= box) { // 컨베이어에서 택배를 꺼내기
+            while (count <= box) { 
                 sub.push(count);
                 count++;
             }
